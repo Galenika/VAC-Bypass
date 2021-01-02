@@ -12,7 +12,7 @@ The very first step in order to compile VAC Bypass is to clone this repo from Gi
 ```
 git clone https://github.com/ArizonaSweetenedTea/VAC-Bypass.git
 ```
-`VAC-Bypass` folder should have been succesfully created, containing all the source files.
+the `VAC-Bypass` folder should have been succesfully created, containing all the source files.
 
 ### Compiling from source
 When you have equiped a copy of source code, next step is opening **VAC-Bypass.sln** in Microsoft Visual Studio 2019.
