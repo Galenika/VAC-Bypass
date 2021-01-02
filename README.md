@@ -19,31 +19,31 @@ When you have equiped a copy of source code, next step is opening **VAC-Bypass.s
 
 Then change build configuration to `Release | x86` and simply press **Build solution**.
 
-If everything went right you should receive `VAC-Bypass.dll`  binary file.
+If everything went right you should receive the `VAC-Bypass.dll`  binary file.
 
 ### Loading
 
 It is mandatory to strictly follow each step of loading in order to make bypass work.
 
 **Method 1**:
-1. Close Steam client if open.
-1. Disconnect from the internet.
+1. Close the Steam client if open.
+1. Disconnect from your internet.
 1. Run Steam as Administrator.
-1. Inject `VAC-Bypass.dll` into `Steam.exe` process.
-1. After successful injection messagebox saying `Initialization was successful!` should appear.
-1. Reconnect to the internet.
-1. Press `Retry` in steam window saying 'Could not connect to Steam servers'.
+1. Inject `VAC-Bypass.dll` into the `Steam.exe` process.
+1. After successful injection, a messagebox should pop-up saying `Initialization was successful!` should appear.
+1. Reconnect to your internet.
+1. Press the `Retry` button in steam window saying 'Could not connect to Steam servers'.
 
-## Experiment
-Bypass has been tested with CS:GO game and Cheat Engine cheating program attached to the game process.
+## Experimentation
+The bypass has been tested in the Steam game CS:GO while Cheat Engine was attached to the process (since Cheat Engine is detected - and I was not banned therefore, it bypassed VAC).
 
-Without bypass:
-* [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837), then VAC Ban within an hour.
+Output without the bypass:
+* [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837), then VAC banned within an hour.
 
-With bypass:
-* No [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837) during play, no VAC Ban at all.
+With the bypass:
+* No [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837) while playing, and no VAC ban at all.
 
-## How it works
+## How It Works
 The goal is to make the `getSystemInformation` function return `false` then VAC aborts scan for cheats. It can be done by bypassing the `dwPageSize` check for example.
 
 ## License
