@@ -51,6 +51,6 @@ With bypass:
 The goal is to make the `getSystemInformation` function return `false` then VAC aborts scan for cheats. It can be done by bypassing the `dwPageSize` check for example.
 
 ## License
-> Copyright (c) 2019 Daniel Krupiński
+> Copyright (c) 2020 - Arizona
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/mit-license.php) - see the [LICENSE](LICENSE) file for details.
