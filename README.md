@@ -48,7 +48,7 @@ With bypass:
 * No [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837) during play, no VAC Ban at all.
 
 ## How it works
-The goal is to make the getSystemInformation function return `false` then VAC aborts scan for cheats. It can be done by bypassing the dwPageSize check for example.
+The goal is to make the `getSystemInformation` function return `false` then VAC aborts scan for cheats. It can be done by bypassing the `dwPageSize` check for example.
 
 ## License
 > Copyright (c) 2019 Daniel Krupiński
