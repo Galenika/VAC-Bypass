@@ -38,7 +38,7 @@ It is mandatory to strictly follow each step of loading in order to make bypass 
 The bypass has been tested in the Steam game CS:GO while Cheat Engine was attached to the process (since Cheat Engine is detected - and I was not banned therefore, it bypassed VAC).
 
 Output without the bypass:
-* [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837), then VAC banned within an hour.
+* [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837), then VAC banned within an hour or so.
 
 With the bypass:
 * No [VAC Error](https://support.steampowered.com/kb_article.php?ref=2117-ilzv-2837) while playing, and no VAC ban at all.
