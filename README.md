@@ -1,6 +1,6 @@
 # VAC Bypass
 
-VAC (Valve Anti-Cheat) full bypass written in C.
+VAC full bypass written in C.
 
 ## Getting started
 
