@@ -1,6 +1,6 @@
 # VAC Bypass
 
-VAC full bypass written in C.
+VAC complete bypass written in C.
 
 ## Getting started
 
